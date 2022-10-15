@@ -61,14 +61,16 @@ body{
 }
 .sect1{
     width: 100%;
+    word-wrap: wrap;
     
 }
 .sect1 h1{
     font-size: 3rem;
     font-weight: 800;
-    width: 570px;
+    max-width: 50%;
     text-align: center;
     margin: 50px auto;
+    word-wrap: wrap;
 }
 .subtitle{
    
