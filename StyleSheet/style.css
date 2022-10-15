@@ -1,0 +1,318 @@
+@import "./color.css";
+@import "./font.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow: none;
+    transition: all 0.3s ease-in;
+}
+#menu-mobile{
+    display: none;
+}
+a{
+    cursor: hand;
+}
+body,h1,h2,p,a,input, button{
+    font-family: var(--fontNunito);
+ 
+}
+body{
+    background-color: var(--whiteGray);
+    width: 100%;
+    box-sizing: border-box;
+}
+.top-local{
+    background-color: var(--GreenSoft);
+    color: var(--BlackColor);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 2 300px;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.top-local a{
+  
+    color: var(--BlackColor);
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem;
+    margin: 0 1em 0 0;
+}
+.top-local ul{
+    display: flex;
+    flex: 1 2 300px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.nav_link:hover{
+    border-bottom: 3px solid white;
+    color: whitesmoke;
+}
+/* formtação do main */
+.center-local{
+    width: 100%;
+    background-color: var(--whiteColor);
+}
+.sect1{
+    width: 100%;
+    
+}
+.sect1 h1{
+    font-size: 3rem;
+    font-weight: 800;
+    width: 570px;
+    text-align: center;
+    margin: 50px auto;
+}
+.subtitle{
+   
+    padding: 1rem 0 0 0;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 600;
+}
+.artigo{
+    max-width: 300px;
+}
+.line{
+    border: 1px solid var(--PinkSoft);
+    margin: 15px auto;
+    
+    width: 100px;
+}
+.line-green{
+    border: 1px solid var(--GreenHard);
+    margin: 15px auto;
+    
+    width: 100px;
+}
+.line-green-1{
+    border: 3px solid var(--GreenHard);
+    width: 20px;
+    margin: 5px auto;
+}
+.line-pink-1{
+    border: 3px solid var(--PinkHard);
+    width: 20px;
+    margin: 5px auto;
+}
+.line-pink{
+    border: 2px solid var(--PinkHard) !important;
+}
+.about{
+    width: 100%;
+}
+.about .conteudo{
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    align-items: center;
+}
+
+.artigo{
+    margin-left:2rem;
+    display: block;
+    height: fit-content;
+}
+.artigo h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.artigo p{
+    text-align: justify;
+}
+
+/* definição de cores de fundo */
+.bg{
+    padding: 2em;
+    padding-top: 0;
+    background-color: var(--PinkSoft);
+}
+.bg-green{
+    background-color: var(--GreenSoft);
+}
+.bg-green-1{
+    background-color: var(--GreenHard);
+}
+.bg-pink{
+    background-color: var(--PinkHard) !important;
+}
+/* area de planos */
+.plano .conteudo{
+    display: flex;
+    flex: 1 3 300px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.plano .artigo{
+    border: 2px solid var(--GreenHard);
+    width: 200px;
+    padding: 2rem;
+    margin-bottom: 10px;
+}
+
+.plano .artigo h4{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 800;
+}
+.plano li span{
+    background-color: var(--GreenHard);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+.plano li{
+    line-height: 1.8;
+}
+h4 sup{
+    font-size: x-large;
+}
+.plano .artigo a{
+    
+    border: 2px solid var(--GreenHard);
+    text-align: center;
+    padding: 2px;
+    color: var(--BlackColor);
+    font-size: 2rem;
+    font-weight: 800;
+    display: block;
+}
+ .plano a:hover{
+    background-color: white;
+    color: var(--GreenHard);
+    border-radius: 15px;
+ }
+/* section newslatter */
+.newslatter{
+    padding: 2rem;
+}
+.newslatter h2{
+    font-size: 3rem;
+}
+.newslatter p{
+    font-size: 1.5rem;
+    width: 300px;
+}
+.newslatter .conteudo{
+    display: flex;
+    flex: 1 2 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.newslatter .conteudo form{
+    background-color: var(--PinkHard);
+    padding: 0.5rem;
+    display: flex;
+}
+input{
+    border: none;
+    padding: 1rem;
+}
+input{
+    width: 300px;
+    display: block;
+    margin-right: 10px;
+}
+button{
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: 800;
+    border: none;
+    padding: 2px;
+    cursor: hand;
+    display: block;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+button:hover{
+    color: var(--GreenHard);
+    border-left: 2px solid var(--GreenHard);
+}
+/* area de partifolio e informação */
+.portifolio{
+    padding: 2rem;
+}
+.portifolio .conteudo{
+    display: flex;
+    flex: 1 2 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.7;
+}
+.portifolio .artigo{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.portifolio h3 span{
+    display: inline-block;
+    height: 20px;
+    width: 10px;
+    
+}
+.portifolio h3{
+    text-align: left;
+}
+/* local de baixo */
+footer .conteudo{
+    padding: 2rem;
+    display: flex;
+    flex: 1 2 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    text-align: justify;
+    font-size: 1.2rem;
+    width: 400px;
+}
+
+/* pré loader */
+#preloader{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: -webkit-linear-gradient(left, rgb(1, 18, 41), rgb(5, 35, 52));
+    background-color:  linear-gradient(left, red, black);
+    color: white;
+}
+.center{
+    display: block;
+    margin-top: 25%;
+    text-align: center;
+}
+.center h1{
+    margin-bottom: 20px;
+}
+.center p{
+    line-height: 1.9;
+    font-size: larger;
+}
+.center p span{
+    font-size: xx-large;
+    font-weight: 800;
+    color: orangered;
+}
+.center strong{
+    color: orangered;
+}
+.await{
+    margin-top: 50px;
+    color: rgba(77, 74, 74, 0.973);
+}

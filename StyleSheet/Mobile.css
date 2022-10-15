@@ -1,0 +1,45 @@
+#menu-mobile{
+display: block; 
+ text-align: right;
+ color: rgb(12, 54, 8);
+position: absolute;
+right: 0;
+top: 8px;
+}
+.top-local{
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+box-shadow: 2px 5px 8px rgba(22, 176, 8, 0.177);
+  width: 100vw;
+}
+.top-local .menu{
+  display: none;
+}
+.top-local ul{
+  flex-direction: column;
+ 
+  padding: 10px;
+  width: 100vw;
+  font-size: 1.4rem;
+  
+  top: 10px;
+  background-color: rgba(7, 57, 4, 0.547);
+  
+}
+.top-local ul a{
+  display: block;
+  margin: 2px;
+  width: 100%;
+  text-align: center;
+}
+.paragrafo,  p{
+  text-align: center;
+}
+.plano .artigo{
+  width: 100vw;
+}
+form{
+  margin: 20px auto;
+  width: 90vw;
+}
