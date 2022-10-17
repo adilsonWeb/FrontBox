@@ -65,6 +65,7 @@ body{
     word-wrap: wrap;
     
 }
+
 .sect1 h1{
     font-size: 3rem;
     font-weight: 800;
@@ -117,13 +118,13 @@ body{
     margin: 10px auto;
     display: flex;
     flex-direction: row;
-    flex: 1 1 200px;
+
     flex-wrap: wrap;
-   justify-content: space-evenly;
+   justify-content: center;
     align-items: center;
 }
-.about .conteudo p{
-    width: 50vh;
+.paragrafo p{
+    width: 55vh;
 }
 
 .artigo{
